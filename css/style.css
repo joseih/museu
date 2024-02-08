@@ -1,0 +1,160 @@
+*{
+    font-family: "Lucida Sans Unicode"
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 93, 17);
+}
+a:hover{
+    color: green;
+    
+}
+body{
+    background-color: rgb(244, 242, 236)
+}
+iframe{
+    border: none;
+}
+p{
+    font-size: 13px;
+}
+label{
+    font-size: 13px;
+}
+
+input[type="text"]
+{
+    font-size:13px;
+}
+
+input[type= "button"]{
+    background-color: rgb(155, 146, 113);
+    border: none;
+    margin: 5px auto;
+    height: 40px;
+    width: 260px;
+    color: white;
+}
+
+#conteiner{
+    background:url("../img/fundo.png");
+    width: 100%;
+    height: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 10px;
+}
+
+nav a{
+    
+    font-size: 10px;
+    padding-bottom: 4px;
+}
+nav a:hover{
+    border-bottom: 0.5px solid grey;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    
+}   
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#principal{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section div{
+    width: 310px;
+}
+h6{
+    color: darkgreen;
+    text-shadow: 10px;
+    text-shadow: 0.2px 0.2px 0.2px  lightgreen;
+    text-align: left;
+    margin: 15px 0;
+    font-size: 12px;
+}
+.conteudo{
+    padding-left: 3px;
+    text-align: left;
+}
+
+#sidebar a{
+    font-size: 12px;
+}
+
+#lateral{
+    background-color: rgb(235, 231, 221);
+    width: 312px;
+    height: 500px;
+}
+
+#agendar{
+    margin-top: 10px;
+    background-color: rgb(205, 200, 177);
+    padding: 20px 0 20px 20px;
+    width: 290px;
+    
+}
+
+#lateral h6{
+    color: rgb(175, 93, 17);
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+#fotos{
+    border: 1px solid red;
+    width: 90%;
+    height: 300px;
+    
+}
+.imagem-fundo{
+    background: url("../img/fundo-foto.png") no-repeat center;
+    
+}
+a img{
+    margin: 10px;
+}
+
+footer{
+    background: url("../img/fundo-rodape.png") no-repeat center top;
+    margin: 20px auto;
+}
+
+#footer-menu{
+    font-size: 12px;
+}
+
+
+#footer-menu ul{
+    margin: 10px 0;
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footer-menu ul li{
+    padding: 0 10px;
+}
